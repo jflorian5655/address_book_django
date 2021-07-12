@@ -1,0 +1,19 @@
+{# extends 'person/base_persona.html' #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Listado de personas </h1>
+    <ul>
+        {% for person in people %}
+            <li>
+                {{ person }}
+            </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
